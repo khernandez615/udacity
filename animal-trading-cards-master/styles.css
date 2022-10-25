@@ -1,0 +1,58 @@
+/* add your CSS here */    
+p{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+}
+.tradingcard{
+    background-color: lightgoldenrodyellow;
+    width: 310px;
+    height: 100%;
+    margin: 010; /* Space from this element (entire page) and others*/
+    padding: 5px; /*space from content and border*/
+    border: 5px solid blue;
+    box-shadow: 5px 10px 7px 3px #060879;
+    border-radius: 20px;
+    border-width: thick;
+    overflow:hidden;
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gold_box {
+    border: 5px solid #f8e32a;
+    border-radius: 10px;
+    padding: 0.5em;
+    width: 275px;
+    height: auto;
+    font-variant: small-caps;
+    list-style-type:none;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+li span { font-weight: bold; }
+
+#mainpic {
+    border: 5px solid #f8e32a;
+    border-radius: 5px;
+ }
+
+ #details {
+    background-color:darkgoldenrod;
+    font-style: italic;
+    text-align: center;
+ }
