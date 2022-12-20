@@ -1,0 +1,48 @@
+body {
+    border: 5px solid rgb(2, 2, 24);
+    border-radius: 20px;
+    border-radius: flex;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 010; /* Space from this element (entire page) and others*/
+    padding: 80px; /*space from content and border*/
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    font-family: sans-serif;
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
